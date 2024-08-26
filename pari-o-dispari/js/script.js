@@ -1,8 +1,7 @@
 // get the necessary elements from the dom
 const userField = document.getElementById('user');
-// const cpuField = document.getElementById('cpu');
 const buttonUser = document.getElementById('user-btn');
-// const buttonCpu = document.getElementById('cpu-btn');
+
 
 
 // take the user number with the button
@@ -37,10 +36,4 @@ buttonUser.addEventListener('click', function(e){
 
 
 
-// buttonCpu.addEventListener('click', function(e) {
-//     e.preventDefault();
-//     // const cpuField = getRandomNumber;
-//     // const cpuValue = getRandomNumber(cpuField.value);
-//     console.log(getRandomNumber(cpuField.value));
-// });
 
